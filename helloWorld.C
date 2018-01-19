@@ -4,14 +4,14 @@
 // These are your name, and the names of 3 other names.. these are your potential partners in
 // this course for a course project
 // (Obviously multiple workers must share the job)
-//
+// The output order does not matter
 // Also the master thread outputs the honor code exactly once (so that's not going to be in hello()
 // 
 
 #include <iostream>
 using namespace std;
 
-void hello();
+void hello(string);
 int main () {
 
   cout << "Program Ends" << endl;  
